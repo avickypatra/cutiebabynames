@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Name Generator</h1>
+        <div class="options">
+            <label for="gender">Select Gender:</label>
+            <select id="gender">
+                <option value="boy">Boy</option>
+                <option value="girl">Girl</option>
+            </select>
+            <label for="startingLetter">Starting Letter:</label>
+            <input type="text" id="startingLetter" maxlength="1">
+            <button id="generateBtn">Generate Names</button>
+        </div>
+        <div id="nameList" class="names"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
